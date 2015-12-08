@@ -7,5 +7,3 @@ Feature: code-breaker starts game
     Scenario: start game
       Given I am not yet playing
       When I start a new game
-      Then I should see "Welcome to Codebraker!"
-      And I should see "Enterr Guess:"
